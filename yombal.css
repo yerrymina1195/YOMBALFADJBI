@@ -83,6 +83,7 @@ font-size: 60px;
   .mabouton:hover{
     transform: scale(1.10) translateZ(0);
  }
+ 
  .mama:hover{
   transform: scale(1.10) translateZ(0);
 }
