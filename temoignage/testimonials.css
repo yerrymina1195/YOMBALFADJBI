@@ -1,0 +1,121 @@
+body{
+
+    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url(../medias/africa-humanitarian-aid-doctor-taking-care-of-patient.jpg);
+    background-position: center,;
+    background-repeat: no-repeat,no-repeat;
+    background-size: cover,cover;
+    background-attachment: fixed;
+
+}
+
+
+
+  .test{
+    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url(../medias/domaine-sante-1024x600.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat,no-repeat;
+    background-position: center,;
+
+  }
+
+ 
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+  background-color: black;
+  border: 2px solid white;
+}
+.tte{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+  
+}
+
+.ndieulbene{
+  background-image:linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)), url(../medias/group-of-african-paramedic-ambulance-emergency-crew-doctors.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat,no-repeat;
+  background-position: center,;
+}
+.logo{
+  width: 200px;
+}
+  
+  .heart{
+font-size: 60px;
+  
+  animation : heart .5s infinite alternate linear;
+  
+  }
+  .a{
+  margin: 0 auto ;
+  }
+  @keyframes heart{
+  from{
+  transform: scale(.4);
+  }
+  to{
+  transform: scale(.1);
+  }
+  } 
+  .mamso{
+    position: relative;
+    z-index: 1;
+  }
+  #taff{
+    z-index: 2;
+  }
+  .mamso2{
+    word-wrap: normal;
+  }
+  .mabouton:hover{
+    transform: scale(1.10) translateZ(0);
+ }
+ .mama:hover{
+  transform: scale(1.10) translateZ(0);
+}
+ /* input */
+
+ hr {
+   border: 0;
+   margin: 1.35em auto;
+   max-width: 100%;
+   background-position: 50%;
+   box-sizing: border-box;
+ }
+ .pill {
+  height:0px;
+  border-radius: 2px;
+  border: 2px solid currentColor;
+  width: 90%;
+}
+/* testimonials */
+.tem{
+  width: 50px;
+  height: 50px;
+} 
+/* contact */
+.rowcont{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.gauche, .droite{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardcont{
+  background-color: #6F90A4;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
